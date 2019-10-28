@@ -1,0 +1,161 @@
+Message logging is now once again on.
+Verse.Log:Message(String, Boolean)
+Verse.Log:ResetMessageCount()
+Verse.Log:Clear()
+Verse.EditWindow_Log:DoWindowContents(Rect)
+Verse.<WindowOnGUI>c__AnonStorey0:<>m__0(Int32)
+UnityEngine.GUI:CallWindowDelegate(WindowFunction, Int32, Int32, GUISkin, Int32, Single, Single, GUIStyle)
+
+Error while generating pawn. Rethrowing. Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.PawnGenerator:GeneratePawn(PawnKindDef, Faction)
+RimWorld.Faction:GenerateNewLeader()
+RimWorld.FactionGenerator:NewGeneratedFaction(FactionDef)
+RimWorld.FactionGenerator:GenerateFactionsIntoWorld()
+RimWorld.Planet.WorldGenStep_Factions:GenerateFresh(String)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error in WorldGenStep: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+System.NullReferenceException: Object reference not set to an instance of an object
+  at VFECore.ScenPartUtility.FinaliseFactionGoodwillCharacteristics (RimWorld.FactionDef faction) [0x00000] in <filename unknown>:0 
+  at VFECore.FactionGoodwillModifier.FinalizeInit () [0x00000] in <filename unknown>:0 
+  at RimWorld.Planet.WorldComponentUtility.FinalizeInit (RimWorld.Planet.World world) [0x00000] in <filename unknown>:0 
+Verse.Log:Error(String, Boolean)
+RimWorld.Planet.WorldComponentUtility:FinalizeInit(World)
+RimWorld.Planet.World:FinalizeInit()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+There was an exception thrown by the PawnGenerator during generating a starting pawn. Trying one more time...
+Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Error while generating pawn. Rethrowing. Exception: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+Verse.PawnGenerator:GeneratePawn(PawnGenerationRequest)
+Verse.StartingPawnUtility:NewGeneratedStartingPawn()
+RimWorld.ScenPart_ConfigPage_ConfigureStartingPawns:PostWorldGenerate()
+RimWorld.Scenario:PostWorldGenerate()
+RimWorld.Planet.WorldGenerator:GenerateWorld(Single, String, OverallRainfall, OverallTemperature)
+RimWorld.Page_CreateWorldParams:<CanDoNext>m__0()
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
+
+Exception from asynchronous event: System.Reflection.ReflectionTypeLoadException: The classes in the module cannot be loaded.
+at (wrapper managed-to-native) System.Reflection.Assembly.GetTypes (bool) <0x00074>
+at System.Reflection.Assembly.GetTypes () <0x0001d>
+at AbilityUser.AbilityUserUtility.GetAllChildrenOf (System.Type) <0x0017a>
+at AbilityUser.AbilityUserUtility.TransformPawn (Verse.Pawn) <0x0005b>
+at AbilityUser.AbilityUserMod.InternalAddInAbilityUsers (Verse.Pawn) <0x00077>
+at AbilityUser.AbilityUserMod.InitializeComps_PostFix (Verse.ThingWithComps) <0x00064>
+at (wrapper dynamic-method) Verse.ThingWithComps.InitializeComps_Patch1 (object) <0x0017b>
+at Verse.ThingWithComps.PostMake () <0x00034>
+at Verse.ThingMaker.MakeThing (Verse.ThingDef,Verse.ThingDef) <0x003bc>
+at Verse.PawnGenerator.TryGenerateNewPawnInternal (Verse.PawnGenerationRequest&,string&,bool,bool) <0x000a7>
+at Verse.PawnGenerator.GenerateNewPawnInternal (Verse.PawnGenerationRequest&) <0x003bc>
+at Verse.PawnGenerator.GenerateOrRedressPawnInternal (Verse.PawnGenerationRequest) <0x007e8>
+at Verse.PawnGenerator.GeneratePawn (Verse.PawnGenerationRequest) <0x0009b>
+
+Verse.Log:Error(String, Boolean)
+Verse.LongEventHandler:RunEventFromAnotherThread(Action)
+Verse.LongEventHandler:<UpdateCurrentAsynchronousEvent>m__1()
